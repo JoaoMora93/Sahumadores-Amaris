@@ -57,7 +57,7 @@ section article p{
 /*estilo main*/
 #estilo-main{
     width: 100%;
-    background-image: url("../recursos/images/varios-productos.jpeg");
+    background-image: linear-gradient(rgba(3, 9, 31, 0.8), rgba(166, 141, 218, 0.8)),url("../recursos/images/varios-productos.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
 }
