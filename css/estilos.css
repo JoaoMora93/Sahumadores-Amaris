@@ -54,6 +54,16 @@ section article p{
     width: 100%;
 }
 
+/* Estilo navbar */
+#estilo-navbar {
+    background-color: #03091Fff !important;
+}
+
+#estilo-navbar a {
+    color: #571DD9ff;
+}
+
+
 /*estilo main*/
 #estilo-main{
     width: 100%;
