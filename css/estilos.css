@@ -35,11 +35,22 @@ h1 {
     font-weight: bold;
     text-align: center;
 }
+
+h2 {
+    color:#03091Fff;
+    background-color: #A68DDAff
+}
+
+h3 {
+    color:#03091Fff;
+    background-color: #A68DDAff
+}
+
 section{
-    margin-left: 40px;
+    margin-left: 0px;
 }
 section article{
-    background-color: aqua;
+    background-color: #A68DDAff;
     width: 500px;
 }
 section article p{
@@ -63,13 +74,20 @@ section article p{
     color: #571DD9ff;
 }
 
-
 /*estilo main*/
 #estilo-main{
     width: 100%;
     background-image: linear-gradient(rgba(3, 9, 31, 0.8), rgba(166, 141, 218, 0.8)),url("../recursos/images/varios-productos.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+/*Clases complementarias de contenedores de bootstrap*/
+.historia {
+    margin-top: auto;
+}
+.vision {
+    margin-top: auto;
 }
 /*estilos de los enlaces del menú*/
 .links-style{
