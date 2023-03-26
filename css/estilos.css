@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/*  Variables */
 #grilla {
   display: grid;
   /*grid areas*/
@@ -18,8 +19,8 @@
 */
 /*Selector Universal*/
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 /*Selector etiqueta*/
@@ -31,22 +32,26 @@ h1 {
   font-size: 30px;
   font-weight: bold;
   text-align: center;
+  border-radius: 2px;
 }
 
 h2 {
-  margin-top: 30px;
+  margin-top: 10px;
   color: #03091f;
   background-color: rgba(165, 141, 218, 0.918);
+  border-radius: 2px;
 }
 
 h3 {
-  margin-top: 5px;
+  margin-top: 10px;
   color: #03091f;
   background-color: rgba(165, 141, 218, 0.948);
+  border-radius: 2px;
+  /*border: 2px solid rgba(89, 29, 217, 0.788);*/
 }
 
 section {
-  margin-top: 100px;
+  margin-top: 10px;
   margin-left: 0px;
 }
 
@@ -63,7 +68,7 @@ section article p {
 
 /*bordes del header*/
 #estilo-header {
-  border: 3px solid black;
+  border-bottom: 2px solid black;
   background-color: #03091f;
   width: 100%;
 }
@@ -95,7 +100,7 @@ section article p {
 }
 
 .vision div article img {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 /*estilos de los enlaces del menú*/
