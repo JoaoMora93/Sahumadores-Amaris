@@ -1,0 +1,150 @@
+#grilla {
+    display: grid;
+    /*grid areas*/
+    grid-template-areas: 
+    "nav header header"
+    "nav productos publicidad"
+    "nav servicios publicidad"
+    "nav footer footer"
+    ;
+    grid-template-columns: 20% 1fr 75px;
+    grid-template-rows: 100px 1fr 1fr 30%;
+}
+/*Palette*/
+/* CSS HEX */
+/*
+--lavender-floral: #A68DDAff;
+--persian-indigo: #3B1B95ff;
+--tropical-indigo: #A88BE2ff;
+--chrysler-blue: #571DD9ff;
+--rich-black: #03091Fff;
+*/
+/*Selector Universal*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Selector etiqueta*/
+h1 { 
+    /*margin-left: 30px;*/
+    color:#03091Fff;
+    background-color: rgba(165, 141, 218, 0.91);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 30px;
+    color:#03091Fff;
+    background-color: rgba(165, 141, 218, 0.918)
+}
+
+h3 {
+    margin-top: 5px;
+    color:#03091Fff;
+    background-color: rgba(165, 141, 218, 0.948)
+}
+
+section{
+    margin-top: 100px;
+    margin-left: 0px;
+}
+section article{
+    background-color: rgba(165, 141, 218, 0.948);
+}
+section article p{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*bordes del header*/
+#estilo-header{
+    border: 3px solid black;
+    background-color: #03091Fff;
+    width: 100%;
+}
+
+/* Estilo navbar */
+#estilo-navbar {
+    background-color: #03091Fff !important;
+}
+
+#estilo-navbar a {
+    color: #571DD9ff;
+}
+
+/*estilo main*/
+#estilo-main{
+    width: 100%;
+    background-image: linear-gradient(rgba(3, 9, 31, 0.982), rgba(166, 141, 218, 0.8)),url("../recursos/images/varios-productos.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Clases complementarias de contenedores de bootstrap*/
+.historia {
+    margin-top: auto;
+}
+.vision {
+    margin-top: auto;
+}
+.vision div article img {
+    margin-bottom: 10px;
+}
+
+/*estilos de los enlaces del menú*/
+.links-style{
+    color: #571DD9ff;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*loguitos del menú*/
+.logo-menu{
+    width: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+/*logo de la empresa*/
+.logo-img{
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+/* Estilo galería*/
+#galeria .col-lg-4 {
+    margin: 0 !important;
+    padding: 25px;
+}
+
+#galeria img {
+    width: 100%;
+    height: 250px;
+}
+
+#galeria img:hover {
+    border: 5px solid rgba(166, 141, 218, 0.8)
+}
+
+#estilo-footer{
+    border: 3px solid #571DD9ff;
+    background-color: #A68DDAff;
+    width: 100%;
+}
+#estilo-footer a,b,i{
+    font-size: medium;
+    font-family: Arial, sans-serif;
+    color: #03091Fff;
+    text-decoration: none;
+}
