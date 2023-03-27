@@ -58,10 +58,6 @@ iframe {
   box-shadow: 1em 0 2em #571dd9;
 }
 
-img {
-  border: 2px solid whitesmoke;
-}
-
 section {
   margin-top: 10px;
   margin-left: 0px;
@@ -142,6 +138,16 @@ section article p {
   text-decoration: none;
 }
 
+.img-borde {
+  border: 2px solid whitesmoke;
+  box-shadow: 10px 5px 5px rgba(109, 90, 151, 0.618);
+}
+
+.istyle {
+  font-size: small;
+  text-align: center;
+}
+
 /* Estilo galería*/
 #galeria .col-lg-4 {
   margin: 0 !important;
@@ -158,8 +164,8 @@ section article p {
 }
 
 #estilo-footer {
-  border: 3px solid #571dd9;
-  background-color: #a68dda;
+  border: 2px solid #571dd9;
+  background-color: rgba(165, 141, 218, 0.952);
   width: 100%;
 }
 
