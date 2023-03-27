@@ -44,10 +44,22 @@ h2 {
 
 h3 {
   margin-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 5px;
   color: #03091f;
   background-color: rgba(165, 141, 218, 0.948);
   border-radius: 2px;
-  /*border: 2px solid rgba(89, 29, 217, 0.788);*/
+  border: 2px solid whitesmoke;
+}
+
+iframe {
+  border-radius: 4px;
+  border: 2px solid whitesmoke;
+  box-shadow: 1em 0 2em #571dd9;
+}
+
+img {
+  border: 2px solid whitesmoke;
 }
 
 section {
