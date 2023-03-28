@@ -80,85 +80,106 @@
           </nav>
     </header>
     <main id="estilo-main">
-      <h3>Hacenos tu pedido o consulta</h3>
-    <form action="procesar.php" method="get">
+    <form action="procesar.php" method="get" id="estilo-formulario">
+      <div class="container">
+        <h3>Hacenos tu pedido o consulta</h3>
+        <div class="row">
+          <div class="col">
+            <p>
+              <label for="nombre">Ingresa tu nombre: </label>
+              <input type="text" name="nombre" placeholder="Ingrese su nombre">
+              </p>
+          </div>
+          <div class="col">
+            <p>
+              <label for="apellido">Ingresa tu apellido: </label>
+              <input type="text" name="apellido" placeholder="Ingrese su apellido">
+              </p>
+          </div>
+          <div class="col">
+            <p>
+              <label for="mail">Ingresa tu correo electrónico: </label>
+              <input type="email" name="mail" placeholder="hola@servidor.com">
+            </p>
+          </div>
+          <div class="col">
+            <p>
+              <label for="pass">Ingresa tu contraseña: </label>
+              <input type="password" name="pass" placeholder="Ingresa tu contraseña">
+          </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h3>Elija su producto</h3>
+            <!--Input Radio-->
+            <label for="producto">Sahumerio</label>
+            <input type="radio" name="producto" value="Sahumerio">
+            <br>
 
-        <p>
-        <label for="nombre">Ingresa tu nombre: </label>
-        <input type="text" name="nombre" placeholder="Ingrese su nombre">
-        </p>
-        
-        <p>
-        <label for="apellido">Ingresa tu apellido: </label>
-        <input type="text" name="apellido" placeholder="Ingrese su apellido">
-        </p>
+            <label for="producto">Mix de hiervas</label>
+            <input type="radio" name="producto" value="MixDeHiervas">
+            <br>
 
-        <p>
-            <label for="mail">Ingresa tu correo electrónico: </label>
-            <input type="email" name="mail" placeholder="hola@servidor.com">
-        </p>
-
-        <p>
-            <label for="pass">Ingresa tu contraseña: </label>
-            <input type="password" name="pass" placeholder="Ingresa tu contraseña">
-        </p>
-
-        <h3>Elija su producto</h3>
-        <!--Input Radio-->
-        <label for="producto">Sahumerio</label>
-        <input type="radio" name="producto" value="Sahumerio">
-        <br>
-
-        <label for="producto">Mix de hiervas</label>
-        <input type="radio" name="producto" value="MixDeHiervas">
-        <br>
-
-        <label for="producto">Agua florida</label>
-        <input type="radio" name="producto" value="AguaFlorida">
-        <br>
-
+            <label for="producto">Agua florida</label>
+            <input type="radio" name="producto" value="AguaFlorida">
+            <br>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
         <!--Input checkbox-->
-        <h3>Elija sus materiales</h3>
+            <h3>Elija sus materiales</h3>
 
-        <label for="materiales">Lavanda</label>
-        <input type="checkbox" name="materiales" value="Lavanda">
-        <br>
+            <label for="materiales">Lavanda</label>
+            <input type="checkbox" name="materiales" value="Lavanda">
+            <br>
 
-        <label for="materiales">Romero</label>
-        <input type="checkbox" name="materiales" value="Romero">
-        <br>
+            <label for="materiales">Romero</label>
+            <input type="checkbox" name="materiales" value="Romero">
+            <br>
 
-        <label for="materiales">Incienso</label>
-        <input type="checkbox" name="materiales" value="Incienso">
-        <br>
-
+            <label for="materiales">Incienso</label>
+            <input type="checkbox" name="materiales" value="Incienso">
+            <br>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
         <!--Input Menú desplegable-->
+            <h3>Elija su producto</h3>
+            <select name="productos">
+                <option value="sahumerio">Sahumerio</option>
+                <option value="mixdehiervas">Mix de hiervas</option>
+                <option value="aguaflorida">Agua florida</option>
+            </select>
+            <br>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <!--Input Textarea-->
+            <h3>Dejanos tu comentario</h3>
+            <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
+            <br>
 
-        <h3>Elija su producto</h3>
-        <select name="productos">
-            <option value="sahumerio">Sahumerio</option>
-            <option value="mixdehiervas">Mix de hiervas</option>
-            <option value="aguaflorida">Agua florida</option>
-        </select>
-        <br>
-
-        <!--Input Textarea-->
-        <h3>Dejanos tu comentario</h3>
-        <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
-        <br>
-
-        <button type="submit">Enviar</button>
-        <button type="reset">Borrar Formulario</button>
-
+            <button type="submit" class="btn btn-outline-light">Enviar</button>
+            <button type="reset" class="btn btn-outline-light">Borrar Formulario</button>
+            <p></p>
+          </div>
+        </div>
+      </div>
     </form>
     </main>
-    
+
     <footer id="estilo-footer">
         <div>
             <a href="#"><b>Contacto: <img src="../recursos/logo/whatsapp.png" alt="whatsapp" width="20px"> </b></a>
             <br>
             <b>Redes Sociales: <a href="https://www.instagram.com/amaris_regalosparaelalma/" target="_blank"><img src="../recursos/logo/instagram.png" alt="instagram-amaris-regalos-para-el-alma" width="20px"></a></b>
-            <i>Creado por: Joao Moraes</i>
+            <div>
+              <i class="istyle">Creado por: Joao Moraes</i>
+            </div>
         </div>
     </footer>
 
