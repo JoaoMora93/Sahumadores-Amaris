@@ -41,10 +41,10 @@ h2 {
   background-color: rgba(165, 141, 218, 0.918);
   border-radius: 2px;
   border: 2px solid whitesmoke;
+  padding-left: 5px;
 }
 
 h3 {
-  margin-top: 10px;
   padding-left: 5px;
   padding-bottom: 5px;
   color: #03091f;
@@ -70,6 +70,7 @@ section {
 
 section article {
   background-color: rgba(165, 141, 218, 0.948);
+  border: 2px solid whitesmoke;
 }
 
 section article p {
@@ -126,6 +127,7 @@ section article p {
 /* Estilo footer*/
 #estilo-footer {
   border: 2px solid #571dd9;
+  border-radius: 3px;
   background-color: rgba(165, 141, 218, 0.952);
   width: 100%;
 }
@@ -141,6 +143,12 @@ section article p {
 .historia {
   margin-top: auto;
 }
+.historia h3{
+    border: 0;
+}
+.historia article{
+    border-radius: 4px;
+}
 
 .vision {
   margin-top: auto;
@@ -148,6 +156,14 @@ section article p {
 
 .vision div article img {
   margin-bottom: 5px;
+}
+
+.vision h3{
+    border: 0;
+}
+
+.vision article {
+    border-radius: 4px;
 }
 
 /*estilos de los enlaces del menú*/
