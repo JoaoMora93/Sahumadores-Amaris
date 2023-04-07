@@ -141,6 +141,7 @@ section article p {
   border-radius: 3px;
   background-color: rgba(165, 141, 218, 0.952);
   width: 100%;
+  text-align: center;
 }
 
 #estilo-footer a, b, i {
@@ -148,6 +149,7 @@ section article p {
   font-family: Arial, sans-serif;
   color: #03091f;
   text-decoration: none;
+  text-align: center;
 }
 
 /* estilo de cartas de hierbas */
