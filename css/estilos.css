@@ -424,6 +424,16 @@ p {
   text-decoration: none;
 }
 
+/* Editar clase navbar bootstrap */
+/* .navbar-toggler-icon {
+  color: white !important;
+  background-color: #fff !important;
+} */
+.navbar-toggler {
+  color: white !important;
+  background-color: #A68DDAff !important;
+}
+
 /*logo de la empresa*/
 .logo-img {
   width: 100px;
